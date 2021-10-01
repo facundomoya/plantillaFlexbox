@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+header {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  padding: 40px 0px;
+  text-align: center;
+  color:whitesmoke
+}
+
+.contenedor{
+    margin: 25px;
+}
+
+h2{
+    margin: 15px 0px;
+}
+
+/* estructura de las cajas */
+
+.caja{
+    border: 2px solid grey;
+    text-align: center;
+    padding: 10px 0px;
+    width: 300px;
+}
+
+#box1{
+    background: #264f05 ;
+}
+#box2{
+    background: #2c540b;
+}
+#box3{
+    background: #315911;
+}
+#box4{
+    background: #365e16;
+}
+#box5{
+    background: #3b631b;
+}
+#box6{
+    background: #406820;
+}
+#box7{
+    background: #466d25;
+}
+/* propiedades de flex */
+#contenedorpadre{
+    display:flex;
+}
+
+#contenedorpadrecolumna{
+    display: flex;
+    flex-direction: column;
+    background: lightseagreen;
+}
+
+#contenedor-wrap{
+    background: lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
